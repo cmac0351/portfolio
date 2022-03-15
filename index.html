@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chris McGee - Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/10256ab2c8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <h1>
+            <a href="index.html">
+              <span class="fas fa-terminal" aria-hidden="true"></span>
+              <span>Chris McGee</span>
+            </a>
+          </h1>
+        </li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/cmac0351/" target="_blank"
+            ><span class="fab fa-linkedin" aria-hidden="true"></span>
+            <span class="sr-only">LinkedIn</span></a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/cmac0351" target="_blank"
+            ><span class="fab fa-github" aria-hidden="true"></span
+            ><span class="sr-only">Github</span></a
+          >
+        </li>
+        <li>
+          <a href="./assets/resume.pdf" target="_blank" class="button"
+            >Resume</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <section id="intro">
+      <p class="name">Hi, my name is <span>Chris McGee</span></p>
+      <h2>I am a Full Stack Software Engineer</h2>
+      <p>
+        I have extensive experience with React, Node, Express, MySQL, and
+        MongoDB
+      </p>
+      <p>
+        Currently, I'm working as a Senior Software Engineering Immersive
+        Resident at
+        <a href="https://www.galvanize.com/" target="_blank">Galvanize, Inc</a>
+      </p>
+    </section>
+
+    <div class="gradient"></div>
+
+    <div class="section-dkblue">
+      <section id="projects">
+        <h2>Projects I'm Proud of:</h2>
+
+        <article>
+          <div class="text">
+            <h4>Latest Project</h4>
+            <h3>Crypo Life</h3>
+            <p class="blackbox">
+              Crypto Life is a cryptocurrency information site that gathers data
+              from the
+              <a href="https://rapidapi.com/Coinranking/api/coinranking1/"
+                >Coinranking</a
+              >
+              API. It displays global crypto info, the top ranking
+              cryptocurrencies, news, and an interactive price chart for each
+              cryptocurrency listed.
+              <span class="project-links">
+                <a
+                  href="https://crypto-life-react-app.netlify.app/"
+                  target="_blank"
+                  >Live Site</a
+                >
+                <a
+                  href="https://github.com/cmac0351/crypto-life"
+                  target="_blank"
+                  >Source</a
+                >
+              </span>
+            </p>
+            <h4>Technologies:</h4>
+            <ul>
+              <li>React</li>
+              <li>Readux Toolkit</li>
+              <li>Ant Design</li>
+              <li>Chart.js</li>
+            </ul>
+          </div>
+          <img
+            src="https://i.ibb.co/483vz12/crypto-life.jpg"
+            alt="Crypto life price chart"
+          />
+        </article>
+
+        <article class="reverse">
+          <div class="text">
+            <h4>Full Stack Project</h4>
+            <h3>Leaft</h3>
+            <p class="blackbox">
+              LEAFT is a full-stack application built under a 4 week constraint
+              at the request of a hypothetical client at Hack Reactor. The app
+              is a green-focused carpool/ridesharing service along the lines of
+              Uber, Lyft, etc., but with the goal of reducing emissions and
+              fostering community.
+              <span class="project-links">
+                <a href="http://3.142.238.175/rider">Live Site</a>
+                <a href="https://github.com/BOC-LightSalmon/hr-rpp29-leaft"
+                  >Source</a
+                >
+              </span>
+            </p>
+            <h4>Technologies:</h4>
+            <ul>
+              <li>React</li>
+              <li>Bootstrap</li>
+              <li>Google Maps API</li>
+              <li>MySQL/Sequelize</li>
+            </ul>
+          </div>
+          <img src="https://i.ibb.co/CM8Ld3k/leaft.jpg" alt="Leaft" />
+        </article>
+
+        <article>
+          <div class="text">
+            <h4>E-Commerce Project</h4>
+            <h3>Atelier</h3>
+            <p class="blackbox">
+              This project is a rebuild of an e-commerce product page. After
+              updating the front end, the backend API was also rebuilt and
+              scaled to be able to handle 3000 RPS.
+              <span class="project-links">
+                <a href="https://github.com/HR-Team-Chevre/hr-rpp29-fec-chevre"
+                  >Front End Source</a
+                >
+                <a href="https://github.com/RPP-29-BAOBAB/QA-API">API Source</a>
+              </span>
+            </p>
+            <h4>Technologies:</h4>
+            <ul>
+              <li>React</li>
+              <li>Node</li>
+              <li>NGINX</li>
+              <li>Redis</li>
+            </ul>
+          </div>
+          <img src="https://i.ibb.co/HPJYF8j/atelier.jpg" alt="Atelier" />
+        </article>
+      </section>
+    </div>
+
+    <div class="gradient"></div>
+
+    <div class="section-wrapper">
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>I am always interested in hearing about new opportunities.</p>
+        <p><a href="mailto:cmac0351@gmail.com" class="button">Email Me</a></p>
+      </section>
+    </div>
+
+    <div class="gradient"></div>
+
+    <footer>
+      <h2>Chris McGee &middot; Full Stack Software Engineer</h2>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/cmac0351/" target="_blank"
+            ><span class="fab fa-linkedin" aria-hidden="true"></span>
+            <span class="sr-only">LinkedIn</span></a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/cmac0351" target="_blank"
+            ><span class="fab fa-github" aria-hidden="true"></span
+            ><span class="sr-only">Github</span></a
+          >
+        </li>
+        <li>
+          <a href="mailto:cmac0351@gmail.com">
+            <span class="fas fa-envelope" aria-hidden="true"></span
+            ><span class="sr-only">Email</span></a
+          >
+        </li>
+      </ul>
+      <p><small>&copy; 2022 Chris McGee. All rights reserved.</small></p>
+    </footer>
+  </body>
+</html>
